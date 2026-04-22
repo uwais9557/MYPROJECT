@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="logo">Job<span>Hunt</span></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Jobs</a>
+            <a href="#">Services</a>
+            <a href="#">Client</a>
+            <button class="btn">Register</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Search, Apply & <br> Get Your <span>Dream Job</span></h1>
+        <p>Your future starts here. Discover countless opportunities.</p>
+
+        <div class="buttons">
+            <button class="primary">Browse Jobs</button>
+            <button class="secondary">How it Works?</button>
+        </div>
+    </section>
+</body>
+</html>
